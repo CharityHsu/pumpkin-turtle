@@ -43,7 +43,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-green-700 rounded-full w-96 h-96 mt-20 overflow-hidden'>
-            <Image className='absolute right-20' src={hero}/>
+            <Image className='absolute right-20' alt='Pumpkin (Turtle)' src={hero}/>
           </div>
         </section>
 
@@ -54,17 +54,17 @@ export default function Home() {
           </div>
           <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-400'>
-              <Image src={biscuits} width={200} height={200} className='mx-auto rounded-3xl'/>
+              <Image src={biscuits} width={200} height={200} className='mx-auto rounded-3xl' alt='Pumpkin (Turtle)'/>
               <h3 className='text-lg font-semibold pt-4 pb-2'>Award-Winning Biscuits</h3>
               <p className='py-2'>Makes Oscar-winning, Grammy-nominated, New York Times best-selling biscuits.</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-400'>
-              <Image src={bathroom} width={200} height={200} className='mx-auto rounded-3xl'/>
+              <Image src={bathroom} width={200} height={200} className='mx-auto rounded-3xl' alt='Pumpkin (Turtle)'/>
               <h3 className='text-lg font-semibold pt-4 pb-2'>Bathroom Buddy</h3>
               <p className='py-2'>Will keep you company in the bathroom, whether you're going number one or number two.</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-400'>
-              <Image src={eyes} width={200} height={200} className='mx-auto rounded-3xl'/>
+              <Image src={eyes} width={200} height={200} className='mx-auto rounded-3xl' alt='Pumpkin (Turtle)'/>
               <h3 className='text-lg font-semibold pt-4 pb-2'>Big Eyes</h3>
               <p className='py-2'>Will stare into your soul. You won't be able to look away.</p>
             </div>
@@ -77,13 +77,13 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap lg:pl-24'>
             <div className='basis-1/4 flex-1'>
-              <Image src={cat1} className='rounded-xl object-cover' width={'100%'} height={'100%'}/>
+              <Image src={cat1} className='rounded-xl object-cover' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
             <div className='basis-1/4 flex-1'>
-              <Image src={cat2} className='rounded-xl object-cover' width={'100%'} height={'100%'}/>
+              <Image src={cat2} className='rounded-xl object-cover' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
             <div className='basis-1/4 flex-1'>
-              <Image src={cat3} className='rounded-xl object-cover' width={'100%'} height={'100%'}/>
+              <Image src={cat3} className='rounded-xl object-cover' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
           </div>
         </section>
