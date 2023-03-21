@@ -26,15 +26,15 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:px-40 font-mono dark:bg-gray-900'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl dark:text-white'>P(T)</h1>
+            <h1 className='text-xl text-black dark:text-white'>P(T)</h1>
             <ul className='flex items-center'>
-              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-white'/></li>
+              <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-white'/></li>
               <li><a href="https://drive.google.com/file/d/1hrpFc-TxKyg6j0N-Crt4xW_WZ48_-Yym/view?usp=sharing" className='bg-gradient-to-r from-slate-400 to-slate-600 text-white px-5 py-3 rounded-md ml-8'>Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-green-600 font-black md:6xl'>Pumpkin (Turtle)</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Self-taught Cat.</h3>
+            <h3 className='text-2xl py-2 md:text-3xl text-black dark:text-white'>Self-taught Cat.</h3>
             <p className='py-5 text-gray-500 md:text-xl max-w-x mx-auto dark:text-white'>Seeking to deliver business value to your company while developing my skills as a professional Cat. Excellent communication skills (you will hear all of my sneezes), prolific (has thrown up four times in the past twenty-four hours), and an alpha male through and through (big, bold, broad-shouldered). Just don't touch me.</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -42,28 +42,28 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-green-700 rounded-full w-96 h-96 mt-20 overflow-hidden'>
+          <div className='relative mx-auto bg-gradient-to-b from-green-700 rounded-full w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 mt-20 overflow-hidden'>
             <Image className='absolute right-20' alt='Pumpkin (Turtle)' src={hero}/>
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className='text-3xl pt-10 py-1 dark:text-white'>Services I offer</h3>
+            <h3 className='text-3xl pt-10 py-1 text-black dark:text-white'>Services I offer</h3>
             <p className='py-2 leading-8 text-gray-500 dark:text-gray-300'>Since the beginning of my journey as a Cat, I have worked with a diverse selection of clients, ranging from a happy Baltimorean woman to a depressed and grief-stricken Baltimorean woman to a Singaporean foster woman to another foster woman who body shames me and blows her nose a lot. As a Cat with over nine years of experience, I have a proven track record of satisfying all of my clients except for that one time I violently attacked my owner, breaking skin and drawing blood but we don't have to talk about that.</p>
           </div>
-          <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-400'>
+          <div className='lg:flex gap-10 text-black dark:text-white'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-green-700'>
               <Image src={biscuits} width={200} height={200} className='mx-auto rounded-3xl' alt='Pumpkin (Turtle)'/>
               <h3 className='text-lg font-semibold pt-4 pb-2'>Award-Winning Biscuits</h3>
               <p className='py-2'>Makes Oscar-winning, Grammy-nominated, New York Times best-selling biscuits.</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-400'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-green-700'>
               <Image src={bathroom} width={200} height={200} className='mx-auto rounded-3xl' alt='Pumpkin (Turtle)'/>
               <h3 className='text-lg font-semibold pt-4 pb-2'>Bathroom Buddy</h3>
               <p className='py-2'>Will keep you company in the bathroom, whether you're going number one or number two.</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-400'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-green-700'>
               <Image src={eyes} width={200} height={200} className='mx-auto rounded-3xl' alt='Pumpkin (Turtle)'/>
               <h3 className='text-lg font-semibold pt-4 pb-2'>Big Eyes</h3>
               <p className='py-2'>Will stare into your soul. You won't be able to look away.</p>
@@ -73,17 +73,17 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
+            <h3 className='text-3xl py-1 text-black dark:text-white'>Portfolio</h3>
           </div>
-          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap lg:pl-24'>
-            <div className='basis-1/4 flex-1'>
-              <Image src={cat1} className='rounded-xl object-cover' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row justify-evenly lg:flex-wrap'>
+            <div className=''>
+              <Image src={cat1} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
-            <div className='basis-1/4 flex-1'>
-              <Image src={cat2} className='rounded-xl object-cover' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            <div className=''>
+              <Image src={cat2} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
-            <div className='basis-1/4 flex-1'>
-              <Image src={cat3} className='rounded-xl object-cover' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            <div className=''>
+              <Image src={cat3} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
           </div>
         </section>
