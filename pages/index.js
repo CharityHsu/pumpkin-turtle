@@ -9,6 +9,17 @@ import eyes from '../public/eyes.png';
 import cat1 from '../public/cat1.png';
 import cat2 from '../public/cat2.png';
 import cat3 from '../public/cat3.png';
+import cat4 from '../public/blankie.png';
+import toy from '../public/toy.png';
+import stick from '../public/stick.png';
+import window from '../public/window.png';
+import hand from '../public/hand.png';
+import pose from '../public/pose.png';
+import scratch from '../public/scratch.png';
+import tongue from '../public/tongue.png';
+import defense from '../public/defense.png';
+
+
 import {useState} from 'react';
 
 
@@ -83,7 +94,34 @@ export default function Home() {
               <Image src={cat2} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
             <div className=''>
+              <Image src={hand} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
               <Image src={cat3} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={cat4} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={toy} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={stick} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={window} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={defense} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={scratch} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={tongue} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
+            </div>
+            <div className=''>
+              <Image src={pose} className='rounded-xl object-cover mx-auto' width={'100%'} height={'100%'} alt='Pumpkin (Turtle)'/>
             </div>
           </div>
         </section>
