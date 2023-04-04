@@ -40,7 +40,7 @@ export default function Home() {
             <h1 className='text-xl text-black dark:text-white'>P(T)</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-white'/></li>
-              <li><a href="https://drive.google.com/file/d/1hrpFc-TxKyg6j0N-Crt4xW_WZ48_-Yym/view?usp=sharing" className='bg-gradient-to-r from-slate-400 to-slate-600 text-white px-5 py-3 rounded-md ml-8'>Resume</a></li>
+              <li><a href="https://drive.google.com/file/d/1hrpFc-TxKyg6j0N-Crt4xW_WZ48_-Yym/view?usp=sharing" className='bg-gradient-to-r from-slate-400 to-slate-600 text-white px-5 py-3 rounded-md ml-8'>Résumé</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -125,6 +125,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <p className='text-sm py-2 text-black dark:text-white'>Made with 💚 by Charity Hsu</p>
 
       </main>
     </div>
